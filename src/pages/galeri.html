@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portofolio — ServisGitar</title>
-<script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio — ServisGitar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans">
-<main class="max-w-5xl mx-auto px-6 py-20">
-<h1 class="text-5xl font-extrabold tracking-tight mb-6">Portofolio</h1>
-<p class="text-xl text-slate-300 mb-12">Karya dan layanan servis gitar yang pernah kami lakukan.</p>
-<div class="grid md:grid-cols-3 gap-6">
-  <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-800 p-6 shadow-md">
-    <div class="h-16 bg-slate-900 flex items-center justify-center text-slate-500">Setup Gitar — Before/After</div>
-    <p class="text-sm text-slate-400">Gitar Setup — Before/After</p>
-  </div>
-  <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-800 p-6 shadow-md">
-    <div class="h-16 bg-slate-900 flex items-center justify-center text-slate-400">Perbaikan Bridge</div>
-    <p class="text-sm text-slate-400">Perbaikan bagian jembatan yang rusak atau longgar.</p>
-  </div>
-  <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-800 p-6 shadow-md">
-    <div class="h-16 bg-slate-900 flex items-center justify-center text-slate-400">Restrung Custom</div>
-    <p class="text-sm text-slate-400">Penggantian string sesuai kebutuhan dan preferensi klien.</p>
-  </div>
-</div>
-</main>
+  <!-- Hero -->
+  <header class="max-w-5xl mx-auto px-6 py-12 flex items-center justify-between">
+    <a href="#" class="text-xl font-extrabold tracking-tight">ServisGitar.com</a>
+    <nav class="flex gap-6 text-sm font-medium">
+      <a href="#" class="hover:text-amber-400 transition">Layanan</a>
+      <a href="#" class="hover:text-amber-400 transition">Harga</a>
+      <a href="#" class="hover:text-amber-400 transition">Portofolio</a>
+      <a href="#" class="hover:text-amber-400 transition">Kontak</a>
+    </nav>
+  </header>
+
+  <!-- Gallery Grid -->
+  <main class="max-w-5xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-extrabold mb-6 text-amber-500">Portofolio</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-slate-800 rounded-2xl p-8 border border-amber-900/20 shadow-md text-center">
+        <div class="h-24 bg-slate-950 rounded-xl flex items-center justify-center text-slate-400 mb-4">Setup Gitar — Before/After</div>
+        <p class="text-sm text-slate-400">Gitar Setup — Before/After</p>
+      </div>
+      <div class="bg-slate-800 rounded-2xl p-8 border border-amber-900/20 shadow-md text-center">
+        <div class="h-24 bg-slate-950 rounded-xl flex items-center justify-center text-slate-400 mb-4">Perbaikan Bridge</div>
+        <p class="text-sm text-slate-400">Perbaikan bagian jembatan yang rusak atau longgar.</p>
+      </div>
+      <div class="bg-slate-800 rounded-2xl p-8 border border-amber-900/20 shadow-md text-center">
+        <div class="h-24 bg-slate-900 rounded-xl flex items-center justify-center text-slate-400 mb-4">Restrung Custom</div>
+        <p class="text-sm text-slate-400">Penggantian string sesuai kebutuhan dan preferensi klien.</p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
