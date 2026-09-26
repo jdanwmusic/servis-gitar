@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#1a1a2e"/>
+  <!-- gitar dengan obeng -->
+  <path d="M32 10c7 0 13 4 16 10 2 4 2 9 0 13-3 6-9 10-16 10s-13-4-16-10c-2-4-2-9 0-13 3-6 9-10 16-10z" fill="#F8F5EF"/>
+  <circle cx="32" cy="24" r="3" fill="#1a1a2e"/>
+  <!-- obeng -->
+  <rect x="40" y="30" width="5" height="14" rx="1" fill="#F8F5EF" transform="rotate(45 42 37)"/>
+  <rect x="38" y="40" width="8" height="3" rx="1" fill="#F8F5EF"/>
+  <text x="20" y="50" font-family="Georgia,serif" font-size="7" font-weight="bold" fill="#F8F5EF">SG</text>
+</svg>
